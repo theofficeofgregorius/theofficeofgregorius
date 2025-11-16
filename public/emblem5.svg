@@ -1,0 +1,12 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <g fill="#E8E1D5">
+    <!-- Top tall spearhead -->
+    <path d="M120 20 L160 100 L80 100 Z"></path>
+
+    <!-- Left long outward blade -->
+    <path d="M30 150 L120 115 L100 180 Z"></path>
+
+    <!-- Right long outward blade -->
+    <path d="M210 150 L120 115 L140 180 Z"></path>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <g fill="#E8E1D5">
+
+    <!-- Top cone (longer, sharper, connected) -->
+    <path d="M120 30 L150 100 L90 100 Z"></path>
+
+    <!-- Left long outward cone, connected to center -->
+    <path d="M40 140 L120 115 L120 165 Z"></path>
+
+    <!-- Right long outward cone, connected to center -->
+    <path d="M200 140 L120 115 L120 165 Z"></path>
+
+  </g>
+</svg>
