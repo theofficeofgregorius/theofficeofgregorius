@@ -15,37 +15,37 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "The Office of Gregorius — Data Analyst & Business Analyst",
+  title: "Home - The Office of Gregorius",
   description:
-    "The official website of Gregorius de Wild — Data Analyst, Business Analyst, and strategic thinker with hands-on expertise in SQL, Python, Databricks, and Power BI.",
+    "The Office of Gregorius de Wild offers a composed and private foundation for endeavours guided by discretion and long-term perspective.",
+  
   keywords: [
     "Gregorius de Wild",
     "Greg de Wild",
-    "Data Analyst",
-    "Business Analyst",
-    "SQL",
-    "Python",
-    "Power BI",
-    "Databricks",
-    "Amsterdam",
-    "ABN AMRO",
-    "Portfolio",
-    "CV",
+    "The Office of Gregorius",
+    "Family Office",
+    "Private Foundation",
+    "Private Domain",
+    "Greg de Wild Portfolio",
+    "Gregorius Website",
+    "Personal Site",
+    "Executive Profile",
   ],
+
   metadataBase: new URL("https://theofficeofgregorius.vercel.app"),
 
   openGraph: {
-    title: "The Office of Gregorius — Data Analyst & Business Analyst",
+    title: "Home - The Office of Gregorius",
     description:
-      "Explore Gregorius de Wild’s professional background, portfolio, and CV.",
+      "The Office of Gregorius de Wild offers a composed and private foundation for endeavours guided by discretion and long-term perspective.",
     url: "https://theofficeofgregorius.vercel.app",
     siteName: "The Office of Gregorius",
     images: [
       {
-        url: "/og-image.png", // I’ll generate this once you send your SVG
+        url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Gregorius de Wild Portfolio",
+        alt: "The Office of Gregorius",
       },
     ],
     locale: "en_US",
@@ -56,7 +56,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "The Office of Gregorius",
     description:
-      "Explore the official website, CV, and professional experience of Gregorius de Wild.",
+      "The Office of Gregorius de Wild offers a composed and private foundation for endeavours guided by discretion and long-term perspective.",
     images: ["/og-image.png"],
   },
 
@@ -66,9 +66,9 @@ export const metadata = {
   },
 
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon.ico",
-    apple: "/apple-touch-icon.png",
+    icon: "/favicon.svg",
+    shortcut: "/favicon.svg",
+    apple: "/favicon.svg",
   },
 
   themeColor: "#152421",
@@ -91,9 +91,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               "@context": "https://schema.org",
               "@type": "Person",
               name: "Gregorius de Wild",
-              jobTitle: "Data Analyst / Business Analyst",
               url: "https://theofficeofgregorius.vercel.app",
               sameAs: ["https://www.linkedin.com/in/gregoriusdewild"],
+              description:
+                "The Office of Gregorius de Wild offers a composed and private foundation for endeavours guided by discretion and long-term perspective."
             }),
           }}
         />

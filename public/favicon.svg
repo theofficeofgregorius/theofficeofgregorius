@@ -1,0 +1,17 @@
+<svg width="512" height="512" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="512" height="512" fill="#152421" transform="scale(0.390625)"></rect>
+
+  <!-- Emblem -->
+  <g fill="#E8E1D5">
+    <rect x="90" width="20" height="60" rx="4"></rect>
+    <rect x="90" y="140" width="20" height="60" rx="4"></rect>
+    <rect y="90" width="60" height="20" rx="4"></rect>
+    <rect x="140" y="90" width="60" height="20" rx="4"></rect>
+
+    <rect x="40" y="40" width="20" height="20" rx="4" transform="rotate(45 40 40)"></rect>
+    <rect x="140" y="40" width="20" height="20" rx="4" transform="rotate(45 140 40)"></rect>
+    <rect x="40" y="140" width="20" height="20" rx="4" transform="rotate(45 40 140)"></rect>
+    <rect x="140" y="140" width="20" height="20" rx="4" transform="rotate(45 140 140)"></rect>
+  </g>
+</svg>
