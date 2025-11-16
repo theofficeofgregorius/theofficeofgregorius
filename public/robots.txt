@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://theofficeofgregorius.vercel.app/sitemap.xml
