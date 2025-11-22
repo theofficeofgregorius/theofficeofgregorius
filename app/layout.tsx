@@ -72,6 +72,10 @@ export const metadata = {
   },
 
   themeColor: "#152421",
+
+  verification: {
+    google: "x9UP3DIJGrI0W-4jiv4dSZ79SJIjoXd4GB8ZcoRRvyY"
+  }
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
